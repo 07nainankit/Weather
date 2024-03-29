@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 .search {
-  width: 100px;
+  /* width: 250px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,12 +36,12 @@ body {
   font-size: 18px;
 }
 .search button {
-  border: 0;
-  outline: 0;
+   border: 0;
+  outline: 0; 
   background-color: #ebfffc;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 4em;
+  height: 4em;
   cursor: pointer;
 }
 .search button img {
@@ -80,6 +80,8 @@ body {
 .wind {
   font-size: 28px;
   margin-top: -6;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .weather{
   display: none;
